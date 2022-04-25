@@ -1,0 +1,72 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+#root {
+  height: calc(100% - 100px);
+}
+
+.App {
+  height: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 50px;
+  background-image: url('bg_1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: 	#83502e;
+}
+
+#div-1{
+  width: 390px;
+}
+
+#div-2 {
+  height: 450px;
+}
+
+.table-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+#content {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+#table {
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  border-radius: 4px;
+  transition: 0.3s;
+  backdrop-filter: blur(15px);
+  width: 210px;
+}
+
+#selected-option {
+  color: black;
+}
+
+#table ul {
+  text-align: left;
+}
+
+#table li {
+  text-align: left;
+}
+
+#table:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+#please-select {
+  text-align: left;
+}

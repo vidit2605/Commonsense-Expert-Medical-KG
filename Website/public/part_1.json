@@ -1,0 +1,104 @@
+{
+    "data": [
+        {
+            "problem.name": "ruq u/s",
+            "type(r)": "DETECTS",
+            "related.name": "right upper quadrant ultrasound"
+        },
+        {
+            "problem.name": "ruq ultrasound",
+            "type(r)": "DETECTS",
+            "related.name": "right upper quadrant ultrasound"
+        },
+        {
+            "problem.name": "cholangitis",
+            "type(r)": "DETECTED BY",
+            "related.name": "right upper quadrant ultrasound"
+        },
+        {
+            "problem.name": "gallbladder wall thickening",
+            "type(r)": "DETECTED BY",
+            "related.name": "right upper quadrant ultrasound"
+        },
+        {
+            "problem.name": "a small nodular liver",
+            "type(r)": "DETECTED BY",
+            "related.name": "right upper quadrant ultrasound"
+        },
+        {
+            "problem.name": "right liver mass",
+            "type(r)": "DETECTED BY",
+            "related.name": "right upper quadrant ultrasound"
+        },
+        {
+            "problem.name": "dilated intrahepatic duct",
+            "type(r)": "DETECTED BY",
+            "related.name": "right upper quadrant ultrasound"
+        },
+        {
+            "problem.name": "transaminitis",
+            "type(r)": "DETECTED BY",
+            "related.name": "right upper quadrant ultrasound"
+        },
+        {
+            "problem.name": "symptoms",
+            "type(r)": "DETECTED BY",
+            "related.name": "right upper quadrant ultrasound"
+        },
+        {
+            "problem.name": "portal vein thrombosis",
+            "type(r)": "DETECTED BY",
+            "related.name": "right upper quadrant ultrasound"
+        },
+        {
+            "problem.name": "hcc",
+            "type(r)": "DETECTED BY",
+            "related.name": "right upper quadrant ultrasound"
+        },
+        {
+            "problem.name": "cholecystitis",
+            "type(r)": "DETECTED BY",
+            "related.name": "right upper quadrant ultrasound"
+        },
+        {
+            "problem.name": "right kindey mass",
+            "type(r)": "DETECTED BY",
+            "related.name": "right upper quadrant ultrasound"
+        },
+        {
+            "problem.name": "biliary duct dilatation",
+            "type(r)": "DETECTED BY",
+            "related.name": "right upper quadrant ultrasound"
+        },
+        {
+            "problem.name": "hyperbilirubinemia",
+            "type(r)": "DETECTED BY",
+            "related.name": "right upper quadrant ultrasound"
+        },
+        {
+            "problem.name": "afebrile",
+            "type(r)": "DETECTED BY",
+            "related.name": "right upper quadrant ultrasound"
+        },
+        {
+            "problem.name": "started calcium carbonate",
+            "type(r)": "TREATS PROBLEM",
+            "related.name": "low calcium"
+        },
+        {
+            "problem.name": "metoprolol",
+            "type(r)": "TREATS PROBLEM",
+            "related.name": "low calcium"
+        },
+        {
+            "problem.name": "tums/vit d",
+            "type(r)": "TREATS PROBLEM",
+            "related.name": "low calcium"
+        },
+        {
+            "problem.name": "herniation",
+            "type(r)": "DETECTED BY",
+            "related.name": "mri"
+        }
+    ]
+}
