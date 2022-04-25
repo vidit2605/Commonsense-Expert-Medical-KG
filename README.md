@@ -22,5 +22,5 @@ After gaining access to the MIMIC-III dataset, we used the NOTEEVENTS.csv file a
 ### To run the web application:
 1. Install nodejs
 2. Run the following commands in the src directory
-3. a. npm install
-   b. npm start
+a. npm install
+b. npm start
