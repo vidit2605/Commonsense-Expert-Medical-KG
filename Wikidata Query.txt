@@ -1,0 +1,56 @@
+QUERY 1:
+
+SELECT ?health_problemLabel ?medical_examinationLabel ?risk_factorLabel ?treatmentLabel ?icd_codeLabel
+
+WHERE
+
+{
+
+  VALUES ?problems {wd:Q12136 wd:Q7208 wd:Q193078}
+
+  ?health_problem wdt:P31 ?problems
+
+  optional {?health_problem wdt:P780 ?symptoms.}
+
+  optional {?health_problem wdt:P923 ?medical_examination.}
+
+  optional {?health_problem wdt:P5642 ?risk_factor.}
+
+  optional {?health_problem wdt:P2176 ?treatment.}
+
+  optional {?health_problem wdt:P1692 ?icd_code.}
+
+
+
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en" }
+
+}
+
+--------------------------------------------------------------------------------------------------------------
+QUERY 2:
+
+SELECT ?infectious_diseaseLabel ?symptomsLabel ?medical_examinationLabel ?risk_factorLabel ?treatmentLabel ?icd_codeLabel 
+
+
+
+WHERE
+
+{
+
+  ?infectious_disease wdt:P31 wd:Q18123741 .
+
+  optional {?infectious_disease wdt:P780 ?symptoms.}
+
+  optional {?infectious_disease wdt:P923 ?medical_examination.}
+
+  optional {?infectious_disease wdt:P5642 ?risk_factor.}
+
+  optional {?infectious_disease wdt:P2176 ?treatment.}
+
+  optional {?infectious_disease wdt:P1692 ?icd_code.}
+
+  
+
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en" }
+
+}
