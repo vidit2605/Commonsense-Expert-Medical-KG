@@ -19,7 +19,10 @@ After gaining access to the MIMIC-III dataset, we used the NOTEEVENTS.csv file a
 7. Create a database in Neo4j desktop.
 8. Run the Knowledge Graph.ipynb file to create the graph in Neo4j.
 
-### To run the web application:
+### The application can be tried on the following webpage:
+https://knowledge-graph-delt.netlify.app/
+
+### To run the web application on your local machine:
 1. Install nodejs
 2. Run steps 3 and 4 in the src directory
 3. npm install
